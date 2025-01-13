@@ -1,0 +1,74 @@
+body{
+    font-family:'Cambria, Cochin';
+    background-color:#FCF6F5FF ;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume-container{
+    display: flex;
+    background-color: #FCF6F5FF;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.left-section{
+    background-color: #990011FF;
+    color:#FCF6F5FF ;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-right: 5px solid rgb(159,10,28) ;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #FCF6F5FF;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 0px;
+    color:#FCF6F5FF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(159,10,28) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    margin: 5px 0;
+}
+
+.right-section{
+    padding: 20px;
+    width: 60%;
+}
+
+button{
+    color: #FCF6F5FF;
+    background-color: #990011FF;
+    font-family:'Cambria, Cochin' ;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: black;
+}
